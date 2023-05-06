@@ -28,10 +28,20 @@ Python libraries used:
 - grovepi
 - grove_rgb_lcd
 - os
-**It's also important to note that we had to configure a postfix server to run on our
+
+** It's also important to note that we had to configure a postfix server to run on our
 rpi in order to get the email to send to the appropriate gmail account. The video we
-used to assist in setting up this server can be found below**
+used to assist in setting up this server can be found below **
 https://www.youtube.com/watch?v=BkVHckJXibE
+
+Physical Components Required:
+- Raspberry PI 4
+- GrovePi Shield
+- GrovePi Ultrasonic Rangefinder
+- GrovePi RGB LCD
+- GrovePi Potentiometer
+** The arrangement of the GrovePi components and what ports are being used can be found 
+written into the comments of the SecureSensor.py code **
 
 In order to utilize our program, we have a file titled SecureSensor.py which should
 be the only required program to run once postfix has been appropriately configured.
